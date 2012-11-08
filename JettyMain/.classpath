@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/home/doug/DESENV/jetty-6.1.26/lib/jetty-6.1.26.jar"/>
+	<classpathentry kind="lib" path="/home/doug/DESENV/jetty-6.1.26/lib/jetty-util-6.1.26.jar"/>
+	<classpathentry kind="lib" path="/home/doug/DESENV/jetty-6.1.26/lib/servlet-api-2.5-20081211.jar"/>
+	<classpathentry kind="lib" path="lib/simplecaptcha-1.2.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

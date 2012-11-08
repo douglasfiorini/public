@@ -1,0 +1,273 @@
+li {
+    list-style: none;
+    display: inline;
+}
+
+.link {
+	color: #0166dd;	
+    text-decoration:none;
+}
+
+.link:hover {
+    text-decoration:underline;
+    }
+
+
+#vitrine {
+    width: 789px;
+    height: 240px;
+    border: 1px solid blue;
+}
+
+#segmentos li {
+    float: left;
+}
+
+#segmentos li #produtos li {
+    float: left;
+    padding: 5px 10px;
+
+}
+
+#segmentos li #produtos li p {
+    margin: 0px 0px;
+    float: left;
+
+}
+
+.imagem {
+    float: left;
+    border: none;
+}
+
+
+.widget {
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border: 1px solid #DDDDDD;
+}
+
+.widget-titulo {
+font-size: 16px;
+font-weight: bold;
+letter-spacing: -0.5px;
+padding: 7px 0 7px 7px;
+}
+
+
+.segmentos {
+float: left;
+margin-left: 10px;
+}
+.segmento {
+display: none;
+}
+/*.segmentoativo {
+display: block;
+}*/
+
+.tabs {
+-moz-border-radius: 3px 3px 0 0;
+border: 1px solid #DDDDDD;
+cursor: pointer;
+float: left;
+font-family: Arial;
+margin-bottom: -1px;
+margin-left: -1px;
+margin-top: 7px;
+padding: 7px 0px;
+text-align: center;
+background-color: #F3F3F3;
+color: #787878;
+font-size: 12px;
+}
+
+
+.ativo {
+background-color: #FFFFFF;
+color: #333;
+font-weight: bold;
+height: 13px;
+margin-top: 4px;
+padding: 9px 0px;
+border-bottom: 1px solid #fff;
+position:relative;
+bottom:-1px;
+}
+
+
+.tres-prod {
+clear: both;
+padding: 20px 10px 10px 35px;
+height: 110px;
+}
+
+
+.dados-prod-horizontal {
+margin: 10px;
+float: right;
+}
+
+
+.prod-horizontal {
+border-right: 1px dotted #ddd;
+float: left;
+}
+
+
+.img-prod-horizontal {
+float: left;
+}
+
+.cinco-prod {
+clear: left;
+padding: 20px 0px 10px 0px;
+height: 190px;
+border-top: 1px solid #DDDDDD;
+margin: 0px 10px;
+}
+
+.dados-prod{
+    padding-left: 10px;
+}
+
+.prod-vertical {
+float: left;
+}
+
+
+.last-prod {
+border-right: none;
+}
+
+.img-prod {
+margin-bottom: 5px;
+padding-left: 40px;
+width: 100px;
+height: 100px;
+}
+
+.complementopreco {
+    font-size: 11px; 
+    padding-top: 3px;
+    min-height:12px;
+}
+
+
+.loja {
+font-size: 10px;
+color: #343434;
+margin-right: 10px;
+margin-bottom: 6px;
+font-weight:bold;
+
+}
+
+
+.nome {
+font-size: 12px;
+color: #343434;
+height: 14px;
+margin-bottom: 5px;
+margin-right: 10px;
+overflow: hidden;
+}
+
+
+.preco {
+font-size: 19px;
+font-weight: bold;
+letter-spacing: -1px;
+margin-right: 10px;
+}
+
+.preco:hover {
+text-decoration:underline;
+}
+
+
+.parcela {
+font-size: 11px;
+color: #343434;
+margin-right: 10px;
+}
+
+
+.rodapesegmento {
+    clear: both;
+    height: 50px;
+    border-top: 1px solid #DDDDDD;
+    margin: 0px 10px;
+}
+
+
+.anunciante {
+    float: left;
+    margin-left: 5px;
+}
+
+
+.marca_anunciante {
+    height: 45px;
+    line-height: 45px;
+}
+
+.marca_anunciante img {
+    vertical-align: middle;
+}
+
+.rodapesegmento form {
+    width:300px;
+    margin: 8px auto;
+}
+
+.rodapesegmento form label.lupa {
+    background: url(../img/input_label_pequeno.png) no-repeat left top;
+    width: 3px;
+    height: 34px;
+    display: block;
+    float: left;
+    text-indent: -99999px;
+}
+
+.rodapesegmento form input {
+    background: url(../img/lupa.png) no-repeat 3px 8px;
+    background-color: #f8f8f8;
+    border: none;
+    border-top: 1px solid #B3B3B3;
+    border-bottom: 1px solid #E0E0E0;
+    color: #333;
+    float: left;
+    font-size: 1.4em;
+    height: 24px;
+    padding: 5px 5px 3px 25px;
+    width: 200px;
+    line-height: 20px;
+}
+
+.rodapesegmento form input:focus {
+    background-color: #fff;
+}
+
+.rodapesegmento form button {
+    background: url(../img/botao_pequeno.png) no-repeat scroll left top transparent;
+    border: medium none;
+    color: #797979;
+    cursor: pointer;
+    float: left;
+    font: 14px arial,helvetica,freesans,sans-serif;
+    height: 34px;
+    letter-spacing: -0.05em;
+    padding: 3px 0;
+    width: 61px;
+}
+
+.rodapesegmento form button:hover {
+    background-position: 0px 100%;
+}
+
+.separador {
+    height: 184px;
+    border-right: 1px dotted #DDD;
+}
+

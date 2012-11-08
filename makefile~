@@ -1,0 +1,8 @@
+FOO=abc
+BAR_1:=$(FOO)
+BAR_2 =$(FOO)
+FOO=def
+
+all:
+	@echo $(BAR_1)
+	@echo $(BAR_2)
